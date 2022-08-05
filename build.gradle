@@ -29,7 +29,14 @@ dependencies {
 
     //compile 아니고 implementation으로 수정
     implementation('org.springframework.boot:spring-boot-starter-web')
+
+    //롬복
     implementation('org.projectlombok:lombok')
+
+    //Spring Data Jpa
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation('com.h2database:h2')
+
     testCompileOnly('org.springframework.boot:spring-boot-starter-test:')
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
