@@ -1,11 +1,11 @@
 package com.longevity.savejob.web;
 
 import com.longevity.savejob.service.posts.PostsService;
+import com.longevity.savejob.web.dto.PostsResponseDto;
 import com.longevity.savejob.web.dto.PostsSaveRequestDto;
+import com.longevity.savejob.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
 @RestController
@@ -19,4 +19,15 @@ public class PostsApiController {
         return postsService.save(requestDto);
     }
 
+    //게시글 수정
+    @PutMapping("/api/v1/posts/{id}")
+    public Long update(@PathVariable Long id, @RequestBody PostsUpdateRequestDto requestDto){
+        return postsService.update(id, requestDto);
+    }
+
+    //게시글 조회
+    @GetMapping("/api/v1/posts/{id}")
+    public PostsResponseDto findById (@PathVariable Long id){
+        return postsService.findById(id);
+    }
 }

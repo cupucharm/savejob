@@ -15,7 +15,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 //JPA 어노테이션 Entity - 테이블과 링크될 클래스
 @Entity
-public class Posts {
+public class Posts { //실제 DB테이블과 매칭
 
     @Id //해당 테이블의 PK필드
     @GeneratedValue(strategy = GenerationType.IDENTITY) //PK생성규칙
@@ -34,5 +34,11 @@ public class Posts {
         this.title = title;
         this.content = content;
         this.author = author;
+    }
+
+    //게시글 수정
+    public void update(String title, String content){
+        this.title = title;
+        this.content = content;
     }
 }
