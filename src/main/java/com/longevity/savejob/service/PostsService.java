@@ -1,4 +1,4 @@
-package com.longevity.savejob.service.posts;
+package com.longevity.savejob.service;
 
 import com.longevity.savejob.domain.posts.Posts;
 import com.longevity.savejob.domain.posts.PostsRepository;

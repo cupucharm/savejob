@@ -1,6 +1,6 @@
 package com.longevity.savejob.web;
 
-import com.longevity.savejob.service.posts.PostsService;
+import com.longevity.savejob.service.PostsService;
 import com.longevity.savejob.web.dto.PostsResponseDto;
 import com.longevity.savejob.web.dto.PostsSaveRequestDto;
 import com.longevity.savejob.web.dto.PostsUpdateRequestDto;

@@ -1,5 +1,6 @@
 package com.longevity.savejob.domain.posts;
 
+import com.longevity.savejob.domain.posts.Posts;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 //DB Layer 접근자 - JPA에서는 Repository.

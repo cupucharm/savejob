@@ -1,5 +1,6 @@
 package com.longevity.savejob.domain.posts;
 
+import com.longevity.savejob.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,7 +16,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 //JPA 어노테이션 Entity - 테이블과 링크될 클래스
 @Entity
-public class Posts { //실제 DB테이블과 매칭
+public class Posts extends BaseTimeEntity { //실제 DB테이블과 매칭
 
     @Id //해당 테이블의 PK필드
     @GeneratedValue(strategy = GenerationType.IDENTITY) //PK생성규칙
