@@ -1,5 +1,6 @@
 package com.longevity.savejob.web;
 
+import com.longevity.savejob.config.auth.LoginUser;
 import com.longevity.savejob.config.auth.dto.SessionUser;
 import com.longevity.savejob.service.PostsService;
 
@@ -18,12 +19,12 @@ public class IndexController {
 
     //index.mustache
     private final PostsService postsService;
-    private final HttpSession httpSession;
+    //private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser user) {
         model.addAttribute("posts", postsService.findAllDesc());
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
+        //SessionUser user = (SessionUser) httpSession.getAttribute("user");
 
         if(user != null){
             model.addAttribute("userName", user.getName());
