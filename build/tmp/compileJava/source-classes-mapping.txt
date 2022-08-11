@@ -1,0 +1,53 @@
+com/longevity/savejob/web/PostsApiController.java
+ com.longevity.savejob.web.PostsApiController
+com/longevity/savejob/config/JpaConfig.java
+ com.longevity.savejob.config.JpaConfig
+com/longevity/savejob/web/dto/PostsResponseDto.java
+ com.longevity.savejob.web.dto.PostsResponseDto
+com/longevity/savejob/domain/user/UserRepository.java
+ com.longevity.savejob.domain.user.UserRepository
+com/longevity/savejob/web/dto/PostsListResponseDto.java
+ com.longevity.savejob.web.dto.PostsListResponseDto
+com/longevity/savejob/domain/user/Role.java
+ com.longevity.savejob.domain.user.Role
+com/longevity/savejob/SavejobApplication.java
+ com.longevity.savejob.SavejobApplication
+com/longevity/savejob/service/PostsService.java
+ com.longevity.savejob.service.PostsService
+com/longevity/savejob/domain/user/User.java
+ com.longevity.savejob.domain.user.User
+ com.longevity.savejob.domain.user.User$UserBuilder
+com/longevity/savejob/config/auth/CustomOAuth2UserService.java
+ com.longevity.savejob.config.auth.CustomOAuth2UserService
+com/longevity/savejob/web/dto/PostsUpdateRequestDto.java
+ com.longevity.savejob.web.dto.PostsUpdateRequestDto
+ com.longevity.savejob.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
+com/longevity/savejob/web/HelloController.java
+ com.longevity.savejob.web.HelloController
+com/longevity/savejob/config/auth/dto/OAuthAttributes.java
+ com.longevity.savejob.config.auth.dto.OAuthAttributes
+ com.longevity.savejob.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/longevity/savejob/domain/posts/PostsRepository.java
+ com.longevity.savejob.domain.posts.PostsRepository
+com/longevity/savejob/domain/posts/Posts.java
+ com.longevity.savejob.domain.posts.Posts
+ com.longevity.savejob.domain.posts.Posts$PostsBuilder
+com/longevity/savejob/config/auth/LoginUserArgumentResolver.java
+ com.longevity.savejob.config.auth.LoginUserArgumentResolver
+com/longevity/savejob/domain/BaseTimeEntity.java
+ com.longevity.savejob.domain.BaseTimeEntity
+com/longevity/savejob/config/WebConfig.java
+ com.longevity.savejob.config.WebConfig
+com/longevity/savejob/web/IndexController.java
+ com.longevity.savejob.web.IndexController
+com/longevity/savejob/web/dto/HelloResponseDto.java
+ com.longevity.savejob.web.dto.HelloResponseDto
+com/longevity/savejob/web/dto/PostsSaveRequestDto.java
+ com.longevity.savejob.web.dto.PostsSaveRequestDto
+ com.longevity.savejob.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/longevity/savejob/config/auth/LoginUser.java
+ com.longevity.savejob.config.auth.LoginUser
+com/longevity/savejob/config/auth/dto/SessionUser.java
+ com.longevity.savejob.config.auth.dto.SessionUser
+com/longevity/savejob/config/auth/SecurityConfig.java
+ com.longevity.savejob.config.auth.SecurityConfig

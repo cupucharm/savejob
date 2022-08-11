@@ -1,0 +1,10 @@
+com/longevity/savejob/web/IndexControllerTest.java
+ com.longevity.savejob.web.IndexControllerTest
+com/longevity/savejob/web/domain/posts/PostsRepositoryTest.java
+ com.longevity.savejob.web.domain.posts.PostsRepositoryTest
+com/longevity/savejob/web/HelloControllerTest.java
+ com.longevity.savejob.web.HelloControllerTest
+com/longevity/savejob/web/PostsApiControllerTest.java
+ com.longevity.savejob.web.PostsApiControllerTest
+com/longevity/savejob/web/dto/HelloResponseDtoTest.java
+ com.longevity.savejob.web.dto.HelloResponseDtoTest
